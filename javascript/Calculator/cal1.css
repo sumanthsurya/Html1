@@ -1,0 +1,19 @@
+.bt{
+    background-color: brown;
+    color: yellow;
+    padding: 15px 30px;
+    font-size: 25px;
+}
+#cls{
+    text-align: center;
+}
+#res{
+    text-align: right;
+}
+.t{
+    font-size:25px;
+}
+.by{
+    text-align: center;
+}
+        

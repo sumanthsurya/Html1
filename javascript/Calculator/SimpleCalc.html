@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="cal1.css">
+    <script src="Calc.js">
+    </script>
+</head>
+<body class="by">
+  <h1>SIMPLE CALCULATOR</h1>
+  <table border="1" cellspacing="5px" cellpadding="5px" align="center">
+    <tr>
+        <td colspan="3">
+            <input type="text" id="res" class="t">
+    
+        </td>
+        <td>
+            <button type="button" onclick="ac()" class="bt">AC</button>
+        </td>
+    
+      </tr>
+      <tr>
+        <td id="cls">
+            <button type="button" class="bt" onclick="show('1')">1</button>
+        </td>
+        <td id="cls">
+            <button type="button" class="bt" onclick="show('2')">2</button>
+        </td>
+        <td id="cls">
+            <button type="button" class="bt" onclick="show('3')">3</button>
+        </td>
+        <td id="cls">
+            <button type="button" class="bt" onclick="show('+')">+</button>
+        </td>
+      </tr>
+      <tr>
+        <td id="cls">
+            <button type="button" class="bt" onclick="show('4')">4</button>
+        </td>
+        <td id="cls">
+            <button type="button" class="bt" onclick="show('5')">5</button>
+        </td>
+        <td id="cls">
+            <button type="button" class="bt" onclick="show('6')">6</button>
+        </td>
+        <td id="cls">
+            <button type="button" class="bt" onclick="show('-')">-</button>
+        </td>
+      </tr>
+      <tr>
+        <td id="cls">
+            <button type="button" class="bt" onclick="show('7')">7</button>
+        </td>
+        <td id="cls">
+            <button type="button" class="bt" onclick="show('8')">8</button>
+        </td>
+        <td id="cls">
+            <button type="button" class="bt" onclick="show('9')">9</button>
+        </td>
+        <td id="cls">
+            <button type="button" class="bt" onclick="show('*')">*</button>
+        </td>
+      </tr>
+      <tr>
+        <td id="cls">
+            <button type="button" class="bt" onclick="show('0')">0</button>
+        </td>
+        <td id="cls">
+            <button type="button" class="bt" onclick="show('%')">%</button>
+        </td>
+        <td id="cls">
+            <button type="button" class="bt" onclick="show('/')">/</button>
+        </td>
+        <td id="cls">
+            <button type="button" class="bt" onclick="cal()">=</button>
+        </td>
+      </tr> 
+  </table>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    background-image: url("/Images/img7.jpg" );
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+#header{
+    font-style: italic;
+    color: red;
+    text-decoration: underline;
+}
+#header2{
+    font-style: italic;
+    color: blue;
+    text-decoration: overline;
+}
+#header3{
+    color: pink;
+}

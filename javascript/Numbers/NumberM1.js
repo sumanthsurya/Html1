@@ -1,0 +1,15 @@
+var x=15
+var n=3.564789
+var y=new Number(15)
+var z=new Number(15)
+var s=x.toString()
+var e=x.toExponential(5)
+var f=n.toFixed(4)
+var p=n.toPrecision(3)
+console.log("Type of s :"+typeof(s))
+console.log("Exponential method :"+e)
+console.log("Fixed method :"+f)
+console.log("Precision method :"+p)
+console.log("Type of e :"+typeof(e))
+console.log("Type of f :"+typeof(f))
+console.log("Type of p :"+typeof(p))
